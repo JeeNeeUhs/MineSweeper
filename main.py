@@ -5,8 +5,6 @@ from colorama import Fore, Back, Style
 
 nums = {}
 
-mineCount = 5
-
 for i in range(1, 26):
     nums[str(i)] = 0
 
@@ -42,7 +40,7 @@ sides = {
 
 selection = int(input('bir sayi yaz: '))
 
-mines = mine.select(selection, mineCount)
+mines = mine.select(selection)
 
 
 
